@@ -1,9 +1,9 @@
 toml
 [build.environment]
-    VITE_APP_API_ORIGIN_URL = "${VITE_APP_API_ORIGIN_URL}"
-    VITE_APP_PROXY_SERVER_URL = "${VITE_APP_PROXY_SERVER_URL}"
+    VITE_APP_API_ORIGIN_URL = "VITE_APP_API_ORIGIN_URL"
+    VITE_APP_PROXY_SERVER_URL = "VITE_APP_PROXY_SERVER_URL"
 
 [[redirects]]
-    from = "${VITE_APP_API_ORIGIN_URL}/*"
-    to = "${VITE_APP_PROXY_SERVER_URL}/:splat"
+    from = "VITE_APP_API_ORIGIN_URL/*"
+    to = "VITE_APP_PROXY_SERVER_URL/:splat"
     status = 200
