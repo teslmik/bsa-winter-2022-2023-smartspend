@@ -3,3 +3,4 @@
     to = "https://smartspend-backend.onrender.com/api/v1/:splat"
     status = 200
     force = true
+    timeout = 300
