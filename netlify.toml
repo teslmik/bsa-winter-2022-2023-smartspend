@@ -1,9 +1,5 @@
 toml
-[build.environment]
-    API_ORIGIN_URL="VITE_APP_API_ORIGIN_URL"
-    PROXY_SERVER_URL="VITE_APP_PROXY_SERVER_URL"
-
 [[redirects]]
-    from="API_ORIGIN_URL/*"
-    to="PROXY_SERVER_URL/:splat"
+    from="/api/v1/*"
+    to="https://smartspend-backend.onrender.com/api/v1/:splat"
     status=200
