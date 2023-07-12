@@ -1,2 +1,2 @@
 # Redirects from what the browser requests to what we serve
-/api/v1              https://smartspend-backend.onrender.com/api/v1
+/api/v1/* https://smartspend-backend.onrender.com/api/v1/:splat 200
