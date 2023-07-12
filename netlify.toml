@@ -1,5 +1,5 @@
 [[redirects]]
-    from = "https://helpful-hamster-42ae2c.netlify.app/api/v1/*"
+    from = "/api/v1/*"
     to = "https://smartspend-backend.onrender.com/api/v1/:splat"
     status = 200
     force = true
