@@ -176,9 +176,7 @@ class ServerApp implements IServerApp {
         this.logger.info('Application initialization…');
 
         await this.app.register(cors, {
-            origin: true,
-            credentials: true,
-            allowedHeaders: ['Authorization', 'Content-Type', 'Accept'],
+            origin: '*',
         });
 
         await this.initMiddlewares();
